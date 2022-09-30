@@ -33,4 +33,4 @@ A B T
 
 ## Betterments
 
-If i had more time or in an ideal world, I would like to experiment with multiple data structures. I think we are loosing some efficiency in the current iteration, wanted to go with what I know out of the gate. The light memoization helps, but I worry about some edge cases here.
+If i had more time or in an ideal world, I would like to experiment with multiple data structures. I think we are loosing some efficiency in the current iteration, wanted to go with what I know out of the gate. The light memoization helps, but I worry about some edge cases here. And maybe an actual testing suite. 
