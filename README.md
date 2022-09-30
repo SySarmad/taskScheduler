@@ -1,4 +1,4 @@
-# Fauna Task Scheduler
+# Task Scheduler
 
 **Assumptions**
 
