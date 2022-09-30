@@ -3,9 +3,6 @@
 ### Usage
 ```bash
 npm i 
-```
-
-```bash
 npm run build
 cat [path-to-file] > node ./dist/index.js
 ```
