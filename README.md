@@ -1,10 +1,21 @@
 # Fauna Task Scheduler
 
+**Assumptions**
+
+started kind of late in the day so i figured i would just power through here but at least show my assumptions and though process. 
+
+Initially a bit confused on how std in is being processed, I went with the pattern
+```js
+cat [path-to-file] | program
+```
+should be easy to handle another pattern like '>' or files. 
+
+
 ### Usage
 ```bash
 npm i 
 npm run build
-cat [path-to-file] > node ./dist/index.js
+cat [path-to-file] | node ./dist/index.js
 ```
 
 **Problem:**
@@ -27,8 +38,6 @@ This file is valid input, and contains four examples of task groups
 B A T 
 
 A B T
-
-
 
 
 ## Betterments
