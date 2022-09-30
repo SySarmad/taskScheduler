@@ -2,13 +2,13 @@
 
 **Assumptions**
 
-started kind of late in the day so i figured i would just power through here but at least show my assumptions and though process. 
+started kind of late in the day so i figured i would just power through here but at least show my assumptions and thought process. 
 
 Initially a bit confused on how std in is being processed, I went with the pattern
 ```js
 cat [path-to-file] | program
 ```
-should be easy to handle another pattern like '>' or files. 
+should be easy to handle another pattern like '>' or path to the file directly to the program. 
 
 
 ### Usage
